@@ -1,5 +1,4 @@
 import { Box, Divider, Link, Text } from '@chakra-ui/react'
-import { useColorModeValue } from '@chakra-ui/react'
 
 const Footer = () => {
   return (
@@ -9,7 +8,7 @@ const Footer = () => {
         <Text fontSize="sm">
           This website is built based on the&nbsp;
           <Link href="https://www.craftz.dog/" target="_blank">
-            Takuya Matsuyama's website{' '}
+            Takuya Matsuyama&apos;s website{' '}
           </Link>
         </Text>
       </Box>

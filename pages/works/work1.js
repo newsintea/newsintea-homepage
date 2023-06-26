@@ -8,13 +8,13 @@ const Work1 = () => {
     <Layout titl="work">
       <Container>
         <Title>
-          newsintea's homepage <Badge>2023</Badge>
+          newsintea&apos;s homepage <Badge>2023</Badge>
         </Title>
         <P>This is the website you are looking at now.</P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="/">newsintea's homepage</Link>
+            <Link href="/">newsintea&apos;s homepage</Link>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
@@ -23,7 +23,7 @@ const Work1 = () => {
           <ListItem>
             <Meta>Based</Meta>
             <Link href="https://www.craftz.dog/">
-              Takuya Matsuyama's Homepage
+              Takuya Matsuyama&apos;s Homepage
             </Link>
           </ListItem>
         </List>

@@ -20,7 +20,7 @@ const Works = () => {
               title="newsintea's homepage"
               thumbnail={thumbnailWork1}
             >
-              This is newsintea's homepage
+              This is newsintea&apos;s homepage
             </WorkGridItem>
           </Section>
           <Section>
