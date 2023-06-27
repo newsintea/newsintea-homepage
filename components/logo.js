@@ -17,15 +17,11 @@ const LogoBox = styled.span`
   }
 `
 const Logo = () => {
+  const headerImage = '/images/contents/horn.png'
   return (
     <Link href="/">
       <LogoBox>
-        <Image
-          src="/images/works/header.png"
-          width={20}
-          height={20}
-          alt="logo"
-        />
+        <Image src={headerImage} width={20} height={20} alt="logo" />
         <Text
           color={useColorModeValue('gray.800', 'whiteAlpha.900')}
           fontFamily='M PLUS Rounded 1c", sans-serif'
